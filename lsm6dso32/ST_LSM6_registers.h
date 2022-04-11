@@ -1,0 +1,48 @@
+
+#pragma once
+
+#define BIT_READ_FLAG							0x80U
+
+//Register Map
+#define LSM6DSO32_FIFO_CTRL1					0x07U
+#define LSM6DSO32_FIFO_CTRL2					0x08U
+#define LSM6DSO32_FIFO_CTRL3					0x09U
+#define LSM6DSO32_FIFO_CTRL4					0x0AU
+#define LSM6REG_WHO_AM_I						0x0FU
+#define LSM6DSO32_CTRL1_XL						0x10U
+#define LSM6DSO32_CTRL2_G						0x11U
+#define LSM6DSO32_CTRL3_C						0x12U
+#define LSM6DSO32_CTRL4_C						0x13U
+#define LSM6DSO32_CTRL5_C						0x14U
+#define LSM6DSO32_CTRL6_C						0x15U
+#define LSM6DSO32_CTRL7_G						0x16U
+#define LSM6DSO32_CTRL8_XL						0x17U
+#define LSM6DSO32_CTRL9_XL                      0x18U
+#define LSM6DSO32_STATUS_REG					0x1EU
+#define LSM6DSO32_OUT_TEMP_L					0x20U
+#define LSM6DSO32_OUT_TEMP_H					0x21U
+#define LSM6DSO32_OUTX_L_G						0x22U
+#define LSM6DSO32_OUTX_H_G						0x23U
+#define LSM6DSO32_OUTY_L_G						0x24U
+#define LSM6DSO32_OUTY_H_G						0x25U
+#define LSM6DSO32_OUTZ_L_G						0x26U
+#define LSM6DSO32_OUTZ_H_G						0x27U
+#define LSM6DSO32_OUTX_L_A						0x28U
+#define LSM6DSO32_OUTX_H_A						0x29U
+#define LSM6DSO32_OUTY_L_A						0x2AU
+#define LSM6DSO32_OUTY_H_A						0x2BU
+#define LSM6DSO32_OUTZ_L_A						0x2CU
+#define LSM6DSO32_OUTZ_H_A						0x2DU
+#define LSM6DSO32_FIFO_STATUS1					0x3AU
+#define LSM6DSO32_FIFO_STATUS2					0x3BU
+#define LSM6DSO32_I3C_BUS_AVB					0x62U
+#define LSM6DSO32_FIFO_DATA_OUT_TAG             0x78U
+#define LSM6DSO32_FIFO_DATA_OUT_X_L				0x79U
+#define LSM6DSO32_FIFO_DATA_OUT_X_H				0x7AU
+#define LSM6DSO32_FIFO_DATA_OUT_Y_L				0x7BU
+#define LSM6DSO32_FIFO_DATA_OUT_Y_H				0x7CU
+#define LSM6DSO32_FIFO_DATA_OUT_Z_L				0x7DU
+#define LSM6DSO32_FIFO_DATA_OUT_Z_H				0x7EU
+
+// WHOAMI values
+#define LSM6_WHOAMI								0x6CU
